@@ -2,12 +2,12 @@ name: Hello world
 
 on:
   push:
-    branch:main
+    branches: [main]
 
 jobs:
   demo:
-    rubs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-      -name:Greeting
-      run:echo"Hi, Welcome to github workflow"
+      - name: Greeting
+        run: echo"Hi, Welcome to github workflow"
