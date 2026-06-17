@@ -1,0 +1,13 @@
+name: Hello world
+
+on:
+  push:
+    branch:main
+
+jobs:
+  demo:
+    rubs-on:ubuntu-latest
+
+    steps:
+      -name:Greeting
+      run:echo"Hi, Welcome to github workflow"
