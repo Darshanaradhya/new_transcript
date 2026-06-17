@@ -1,0 +1,13 @@
+name: Mannual_workflow
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greeting
+        run: echo "hello world"
+    
