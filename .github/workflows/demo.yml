@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Greeting
-        run: echo"Hi, Welcome to github workflow"
+        run: echo "Hi, Welcome to github workflow"
