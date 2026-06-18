@@ -20,6 +20,6 @@ jobs:
         run: echo "Hi ${{inputs.name}}"
 
       - name: Age
-        run: echo "your age is ${{age}}"
+        run: echo "your age is ${{inputs.age}}"
 
       
