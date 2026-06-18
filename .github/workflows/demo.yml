@@ -1,25 +1,16 @@
-name: Mannual_workflow123
+name: Final_test
 
 on:
-  workflow_dispatch:
-    inputs:
-      name:
-        description: 'Name'
-        type: string
-        default: 'Darshan'
-      age:
-        description: 'Age'
-        type: number
-        required: true
+  push:
+    branches: [main]
+
 jobs:
-  Mannual:
+  My_job:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Name1
-        run: echo "Hi ${{inputs.name}}"
+      - name: My_steps
+        run: echo "Jai sree ram"
 
-      - name: Age
-        run: echo "your age is ${{inputs.age}}"
-
-      
+        
+  
