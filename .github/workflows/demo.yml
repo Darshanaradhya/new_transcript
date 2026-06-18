@@ -1,13 +1,14 @@
-name: Hello world
+name: Mannual_workflow
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  demo:
+  Mannual:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Greeting
-        run: echo "Hi, Welcome to github workflow"
+      - name: Mannual
+        run: echo "Hi from mannual workflow"
+
+      
