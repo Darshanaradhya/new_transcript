@@ -2,13 +2,17 @@ name: Mannual_workflow123
 
 on:
   workflow_dispatch:
-
+    inputs:
+      name:
+        description: 'Name'
+        type: string
+        default: 'Darshan'
 jobs:
   Mannual:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Mannual
-        run: echo "Hi from mannual workflow"
+      - name: Name
+        run: echo "Hi ${{inputs.name}}"
 
       
