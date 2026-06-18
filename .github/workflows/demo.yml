@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Name
+      - name: Name1
         run: echo "Hi ${{inputs.name}}"
 
       
